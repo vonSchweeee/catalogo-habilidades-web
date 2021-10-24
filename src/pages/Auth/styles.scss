@@ -1,0 +1,32 @@
+.auth-page {
+  &.auth-page-container {
+    background: linear-gradient(90deg, var(--bg-color));
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--acent);
+    box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.25);
+    border-radius: 4px;
+    
+    width: 90vw;
+    min-width: 100px;
+    max-width: 900px;
+    height: 700px;
+    min-height: 100px;
+    max-height: 95vh;
+  }
+
+  .txt-login {
+    // color: #FFF;
+  }
+}

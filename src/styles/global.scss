@@ -1,9 +1,14 @@
 :root {
-  --bg-color: #DCD6F7;
-  --primary: #424874;
-  --accent: #A6B1E1;
-  --light-gray: #CACFD6;
-  --light-cyan: #D6E5E3;
+  --bg-color: #FBFFF1;
+  --primary: #090C9B;
+  --secondary: #3066BE;
+  --light-blue: #B4C5E4;
+  --black: #16142D;
+}
+
+* {
+  color: var(--black);
+  font-family: 'SFProText', sans-serif, Arial;
 }
 
 body {
@@ -21,3 +26,32 @@ body {
   background-color: var(--bg-color);
 }
 
+.f-1 {
+  display: flex;
+  flex: 1;
+}
+
+.input {
+  border-radius: 8px;
+  padding: 8px;
+  border: 1px solid #16142D33;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  transition: border-color 250ms;
+
+  &:hover {
+    border-color: var(--black);
+  }
+
+  &:active {
+    border-color: var(--primary);
+  }
+}
+
+.btn {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #077AFF;
+  color: #FFF;
+}
