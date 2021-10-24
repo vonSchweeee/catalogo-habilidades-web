@@ -1,0 +1,23 @@
+:root {
+  --bg-color: #DCD6F7;
+  --primary: #424874;
+  --accent: #A6B1E1;
+  --light-gray: #CACFD6;
+  --light-cyan: #D6E5E3;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+#root, .App, body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.App {
+  background-color: var(--bg-color);
+}
+
